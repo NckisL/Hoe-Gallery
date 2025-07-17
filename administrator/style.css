@@ -1,0 +1,21 @@
+.news-img{
+    max-width: 300px;
+      height: auto;
+}
+.nav-logo{
+  width: 160px;
+  padding: 10px;
+  padding-right: 1.35rem;
+  padding-left: 1.25rem;
+  margin-right: .5rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ebebeb;
+  position: relative;
+}
+@media (max-width: 768px){
+  .navbar-brand{
+    display: none;
+  }
+}
