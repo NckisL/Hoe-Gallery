@@ -53,13 +53,3 @@ The `images` table is filled by the import script, which scans each folder in `I
 | Frontend | HTML, CSS, JavaScript, Bootstrap |
 | Icons | Font Awesome |
 | Local server | XAMPP (Apache and MySQL) |
-
-## Setup
-
-1. Put the project folder in the `htdocs` folder of XAMPP.
-2. Start Apache and MySQL in XAMPP.
-3. Create a MySQL database and the two tables above.
-4. Update the database name and credentials in `config/conn_db.php`.
-5. Put your images in the `Images/` folder, one subfolder per category.
-6. Run the import script once to add the images to the database.
-7. Open `http://localhost/your-folder-name` in your browser.
